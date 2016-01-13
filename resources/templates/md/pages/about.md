@@ -1,8 +1,8 @@
-{:title "About"
+{:title "Portfolio"
  :layout :page
  :page-index 0
  :navbar? true}
 
-## Write something about something
+## This shit is spooky af
 
-wow wow wow
+Woah cool stuff I can type in my thoughts here!

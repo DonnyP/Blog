@@ -1,8 +1,7 @@
-{:title "Another Page"
+{:title "Spooks number 2"
  :layout :page
  :page-index 1}
 
-## Look at this sweet page
+## ayee its spooks number 2 now! 
 
-this is another custom page
-totally not a post
+Learning is fun. 
