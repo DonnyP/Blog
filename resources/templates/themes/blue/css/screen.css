@@ -22,7 +22,7 @@ body {
 .featured {
     position: relative;
     text-align: center;
-    background-color: darkgray;
+    background-color: black;
     text-align: center;
     padding: 50px;
 }
@@ -58,7 +58,7 @@ body {
 
 #navbar ul li:hover{
     background: #fff;
-}   
+}
 
 #navbar ul li:last-child{
     margin:0;
