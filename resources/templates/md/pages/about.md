@@ -3,6 +3,6 @@
  :page-index 0
  :navbar? true}
 
-## This shit is spooky af
+## Not too sure what to put here
 
-Woah cool stuff I can type in my thoughts here!
+This is going to be blank for now...

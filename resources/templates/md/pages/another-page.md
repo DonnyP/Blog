@@ -1,7 +1,7 @@
-{:title "Spooks number 2"
+{:title "Portfolio Page 2"
  :layout :page
  :page-index 1}
 
-## ayee its spooks number 2 now! 
+## Still not too sure!
 
-Learning is fun. 
+What to put in... FIND OUT NEXT TIME ON DRAGON BALL Z.
