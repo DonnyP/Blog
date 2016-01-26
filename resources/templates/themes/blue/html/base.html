@@ -28,16 +28,16 @@
     </div><!--/.container-fluid -->
 </nav>
 
-<div class="featured">
-  <h1>Testing</h1>
+<div class="banner">
+  <h1>Donny Phimsavanh</h1>
   <hr />
-  <p>Testing</p>
+  <p>Online Portfolio</p>
 </div>
         <div id="navbar">
             <ul>
               <li {% if home %} class="active" {% endif %}><a href="{{index-uri}}">Home</a></li>
                 <li
-                {% if archives %} class="active" {% endif %}><a href="{{archives-uri}}">Archives</a></li>
+                {% if archives %} class="active" {% endif %}><a href="{{archives-uri}}">archives</a></li>
                 {% for nav-page in navbar-pages %}
                 <li
                 {%ifequal page.uri nav-page.uri %} class="active" {% endifequal %}>
@@ -62,8 +62,6 @@
             <div id="sidebar">
                 <h3>Links</h3>
                 <ul id="links">
-                    <li><a href="http://cryogenweb.org/docs/home.html">Cryogen Docs</a></li>
-                    <li><a href="http://carmenla.me/blog/index.html">Carmen's Blog</a></li>
                     {% for page in sidebar-pages %}
                     <li><a href="{{page.uri}}">{{page.title}}</a></li>
                     {% endfor %}
@@ -91,13 +89,14 @@
             </div>
         </div>
     </div>
-    <footer>Copyright &copy; {{today|date:yyyy}} {{author}}
-        <p style="text-align: center;">Powered by <a href="http://cryogenweb.org">Cryogen</a></p></footer>
-</div>
+
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 {% script "js/highlight.pack.js" %}
 <script>hljs.initHighlightingOnLoad();</script>
-</div> 
+</div>
+ <footer>Copyright &copy; {{today|date:yyyy}} {{author}}
+        <p style="text-align: center;">Powered by <a href="http://cryogenweb.org">Cryogen</a></p></footer>
+</div>
 </body>
 </html>
